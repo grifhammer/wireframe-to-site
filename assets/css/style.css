@@ -1,0 +1,74 @@
+/* line 3, ../compass/sass/style.scss */
+#header {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px 0 0 0;
+}
+/* line 8, ../compass/sass/style.scss */
+#header #nav-bar {
+  position: relative;
+  overflow: hidden;
+}
+/* line 11, ../compass/sass/style.scss */
+#header #nav-bar #logo {
+  float: left;
+  margin: 0 0 0 5%;
+  background: #ccc;
+}
+/* line 15, ../compass/sass/style.scss */
+#header #nav-bar #logo h2 {
+  margin: 3px 30px 6px 30px;
+}
+/* line 19, ../compass/sass/style.scss */
+#header #nav-bar #nav {
+  float: right;
+  background: #ccc;
+  margin: 0 50px 0 0;
+  min-width: 100px;
+}
+/* line 26, ../compass/sass/style.scss */
+#header #nav-bar #nav ul li a {
+  color: black;
+  padding: 11px 11px 11px 11px;
+}
+/* line 35, ../compass/sass/style.scss */
+#header #images-wrapper {
+  position: relative;
+  padding: 20%;
+}
+/* line 39, ../compass/sass/style.scss */
+#header #images-wrapper #center-logo {
+  text-align: center;
+  background: #ccc;
+  margin: auto;
+  width: 75%;
+  padding-top: 50%;
+  min-width: 450px;
+  padding: 0 0 10px 0;
+}
+/* line 46, ../compass/sass/style.scss */
+#header #images-wrapper #center-logo #logo-container {
+  margin-top: 0%;
+  width: 100%;
+}
+/* line 49, ../compass/sass/style.scss */
+#header #images-wrapper #center-logo #logo-container h1 {
+  font-size: 73px;
+  font-style: bold;
+}
+/* line 53, ../compass/sass/style.scss */
+#header #images-wrapper #center-logo #logo-container h3 {
+  font-size: 20px;
+}
+/* line 60, ../compass/sass/style.scss */
+#header #images-wrapper #glyphicons-wrapper {
+  width: 50px;
+  position: absolute;
+  right: 0%;
+  top: 30%;
+}
+/* line 66, ../compass/sass/style.scss */
+#header #images-wrapper #glyphicons-wrapper img {
+  width: 100%;
+  margin: 10px 0 0 0;
+}

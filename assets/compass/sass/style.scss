@@ -1,0 +1,73 @@
+$gray: #ccc;
+
+#header{
+	max-width: 900px;
+	margin:auto;
+	padding: 30px 0 0 0;
+	// overflow: hidden;
+	#nav-bar{
+		position:relative;
+		overflow: hidden;
+		#logo{
+			float:	left;
+			margin: 0 0 0 5%;
+			background: $gray;
+			h2{
+				margin: 3px 30px 6px 30px;
+			}
+		}
+		#nav{
+			float: right;
+			background: $gray;
+			margin: 0 50px 0 0;
+			min-width: 100px;
+			ul{
+				li{
+					a{
+						color: black;
+						padding: 11px 11px 11px 11px;
+
+					}
+				}
+			}
+		}
+	}
+	#images-wrapper{
+		position: relative;
+		padding: 20%;
+		// overflow: hidden;
+		#center-logo{
+			text-align: center;
+			background: $gray;
+			margin: auto;
+			width: 75%;
+			padding-top: 50%;
+			min-width: 450px;
+			#logo-container{
+				margin-top: 0%;
+				width: 100%;
+				h1{
+				font-size: 73px;
+				font-style: bold;
+				}
+				h3{
+					font-size: 20px;
+				}
+			}
+			
+			padding: 0 0 10px 0;
+		}
+		#glyphicons-wrapper{
+			width: 50px;
+
+			position: absolute;
+			right: 0%;
+			top: 30%;
+			img{
+				width: 100%;
+				margin: 10px 0 0 0;
+			}
+		}
+	}
+
+}
