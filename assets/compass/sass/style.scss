@@ -73,24 +73,25 @@ $gray: #ccc;
 }
 #service-section{
 	background: $gray;
+	padding: 4% 0;
 	#service-wrapper{
-		width: 80%;
+		// width: 80%;
 		overflow: hidden;
-		margin: auto;
-		padding: 20px 0 20px 0;
+		// margin: auto;
+		// padding: 20px 0 20px 0;
 		.service{
-			width: 20%;
-			float: left;
+			// width: 20%;
+			// float: left;
 			text-align: center;
-			margin: auto;
-			min-width: 150px;
-			margin: 0 6%;
-			padding: 3% 0%;
+			// margin: auto;
+			// min-width: 150px;
+			// margin: 0 6%;
+			// padding: 3% 0%;
 			.service-image-wrapper{
 				.service-image{
 					img{
 						width: 100%;
-						margin: auto;
+						max-width: 300px;
 					}
 				}
 			}
@@ -106,7 +107,7 @@ $gray: #ccc;
 					}
 				}
 				.service-button-wrapper{
-					margin: auto;
+					// margin: auto;
 					a{
 
 					}
