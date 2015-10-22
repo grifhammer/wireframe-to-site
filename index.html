@@ -4,6 +4,41 @@
 	<title>Wireframe to Full Site</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+	<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+	<script type="text/javascript" href="scripts.js"></script>
+	<script>
+	$(document).ready(function() {
+	    $("#single_1").fancybox({
+	    	helpers: {
+	          	title : {
+	              	type : 'float'
+	              }
+	          }
+	    });
+		$("#single_2").fancybox({
+			helpers: {
+				title : {
+					type : 'float'
+				}
+			}
+		});
+		$("#single_3").fancybox({
+			helpers: {
+				title : {
+					type : 'float'
+				}
+			}
+		});
+		$('.flexslider').flexslider({
+    		animation: "slide",
+    		controlsContainer: $(".custom-controls-container"),
+    		customDirectionNav: $(".custom-navigation a")
+		});
+	});
+	</script>
 </head>
 <body>
 	<div id="header">
@@ -40,7 +75,9 @@
 			<div class="service">
 				<div class="service-image-wrapper">
 					<div class="service-image">
-						<img src="service1.jpg">
+						<a href="images/html5.png"  id="single_1">
+							<img src="images/html5.png">
+						</a>
 					</div>
 				</div>
 				<div class="service-content-wrapper">
@@ -59,7 +96,9 @@
 			<div class="service">
 				<div class="service-image-wrapper">
 					<div class="service-image">
-						<img src="service1.jpg">
+						<a href="images/css3.png"  id="single_2">
+							<img src="images/css3.png">
+						</a>
 					</div>
 				</div>
 				<div class="service-content-wrapper">
@@ -78,7 +117,9 @@
 			<div class="service">
 				<div class="service-image-wrapper">
 					<div class="service-image">
-						<img src="service1.jpg">
+						<a href="images/js.png"  id="single_3">
+							<img src="images/js.png">
+						</a>
 					</div>
 				</div>
 				<div class="service-content-wrapper">
@@ -97,5 +138,28 @@
 		</div>
 	</div>
 	<div id="about-us-section">
+		<!-- Place somewhere in the <body> of your page -->
+		<div class="flexslider">
+			<ul class="slides">
+				<li>
+					<img src="images/banner1.jpeg" />
+				</li>
+				<li>
+					<img src="images/banner5.jpeg" />
+				</li>
+				<li>
+					<img src="images/banner4.jpeg" />
+				</li>
+				<li>
+					<img src="images/banner3.png" />
+				</li>
+			</ul>
+		</div>
+	<div class="custom-navigation">
+		<a href="#" class="flex-prev">Prev</a>
+		<div class="custom-controls-container"></div>
+			<a href="#" class="flex-next">Next</a>
+		</div>
+	</div>
 </body>
 </html>
