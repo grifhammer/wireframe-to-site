@@ -1,165 +1,291 @@
 $gray: #ccc;
+$dark-gray: #aaa;
 
-#header{
+#site-wrapper{
+	width: 95%;
+	margin: auto;
 	max-width: 900px;
-	margin:auto;
-	padding: 30px 0 0 0;
-	// overflow: hidden;
-	#nav-bar{
-		position:relative;
-		overflow: hidden;
-		#logo{
-			float:	left;
-			margin: 0 0 0 5%;
-			background: $gray;
-			h2{
-				margin: 3px 30px 6px 30px;
+	#header{
+		max-width: 900px;
+		margin:auto;
+		padding: 30px 0 0 0;
+		// overflow: hidden;
+		#nav-bar{
+			position:relative;
+			overflow: hidden;
+			#logo{
+				float:	left;
+				margin: 0 0 0 5%;
+				background: $gray;
+				h2{
+					margin: 3px 30px 6px 30px;
+				}
 			}
-		}
-		#nav{
-			float: right;
-			background: $gray;
-			margin: 0 50px 0 0;
-			min-width: 100px;
-			ul{
-				li{
-					a{
-						color: black;
-						padding: 11px 11px 11px 11px;
+			#nav{
+				float: right;
+				background: $gray;
+				margin: 0 50px 0 0;
+				min-width: 100px;
+				ul{
+					li{
+						a{
+							color: black;
+							padding: 11px 11px 11px 11px;
 
+						}
 					}
 				}
 			}
 		}
-	}
-	#images-wrapper{
-		position: relative;
-		padding: 20%;
-		// overflow: hidden;
-		#center-logo{
-			text-align: center;
-			background: $gray;
-			margin: auto;
-			width: 75%;
-			padding-top: 50%;
-			min-width: 450px;
-			#logo-container{
-				margin-top: 0%;
-				width: 100%;
-				h1{
-				font-size: 73px;
-				font-style: bold;
+		#images-wrapper{
+			position: relative;
+			padding: 20%;
+			// overflow: hidden;
+			#center-logo{
+				text-align: center;
+				background: $gray;
+				margin: auto;
+				width: 75%;
+				padding-top: 50%;
+				min-width: 450px;
+				#logo-container{
+					margin-top: 0%;
+					width: 100%;
+					h1{
+					font-size: 73px;
+					font-style: bold;
+					}
+					h3{
+						font-size: 20px;
+					}
 				}
-				h3{
+				
+				padding: 0 0 10px 0;
+			}
+			#glyphicons-wrapper{
+				width: 50px;
+
+				position: absolute;
+				right: 0%;
+				top: 30%;
+				img{
+					width: 100%;
+					margin: 10px 0 0 0;
+				}
+			}
+		}
+
+	}
+	#service-section{
+		background: $gray;
+		padding: 4% 0;
+		position: relative;
+		overflow: hidden;
+		#service-wrapper{
+			overflow: hidden;
+			.service{
+				text-align: center;
+				.service-image-wrapper{
+					.service-image{
+						img{
+							width: 100%;
+							max-width: 300px;
+						}
+					}
+				}
+				.service-content-wrapper{
+					.service-header{
+						h5{
+							font-size: 14px;
+						}
+					}
+					.service-description{
+						p{
+							font-size: 14px;
+						}
+					}
+					.service-button-wrapper{
+						a{
+
+						}
+					}
+				}
+			}
+		}
+
+	}
+
+	#about-us-section{
+		position: relative;
+		// padding-top: 39.4%;
+		width: 100%;
+		margin: auto;
+		border: 1px solid $dark-gray;
+		overflow: hidden;
+		#about-us-content-wrapper{
+			width: 40%;
+			padding: 10% 1% 10% 5%;
+			margin: 0% 10% 0% 0%;
+			float: left;
+			#about-us-header{
+				// padding: 0;
+				h2{
+					padding: 0;
 					font-size: 20px;
 				}
+				h4{
+
+				}
+			}
+			#about-us-content{
+				p{
+
+				}
+
+			}
+		}
+		#about-us-carousel-wrapper{
+			width: 50%;
+			float: left;
+			margin: 30% 0% 0% 0%;
+			#about-us-carousel{
+				width: 90%;
+				margin: 0% 5% 0%;
+				.carousel-indicators{
+					li{
+
+					}
+				}
+				.carousel-inner{
+					.item{
+						img{
+							max-width: 100%;
+							width: 100%;
+						}
+					}
+				}
+				a{
+					span{
+
+					}
+				}
+				.right{
+					position: absolute;
+					right: 0;
+
+				}
+
+
+			}
+		}
+	}
+	#contact-us-wrapper{
+		width: 100%;
+		margin: auto;
+		overflow: hidden;
+		background: $gray;
+		#contact-us-content-wrapper{
+			width: 50%;
+			float: left;
+			#contact-us-header{
+				// margin-top: 10%;
+				margin: 10% 0 0 10%;
+				font-size: 50px;
+				font-weight: bold;
+
+			}
+			#address-wrapper{
+
+			}
+			#email-wrapper{
+
+			}
+			#phone-wrapper{
+
+			}
+			.contact-wrapper{
+				padding: 10%;
+				overflow: hidden;
+				font-size: 15px;
+				.contact-item-header{
+					float: left;
+					width: 20%;
+					font-weight: bold;
+				}
+				.contact-item-contents{
+					float: left;
+					padding: 0 0 0 20%;
+
+				}	
 			}
 			
-			padding: 0 0 10px 0;
 		}
-		#glyphicons-wrapper{
-			width: 50px;
+	}
+	#questions-section-wrapper{
+		width: 100%;
+		overflow: hidden;
+		padding: 20px 0 50px 0;
+		#questions-wrapper{
+			width: 50%;
+			margin: 0 25%;
+			overflow: hidden;
+			h2{
 
-			position: absolute;
-			right: 0%;
-			top: 30%;
-			img{
+			}
+			p{
+
+			}
+			input{
+				background: $gray;
+				border: $dark-gray 2px solid;
 				width: 100%;
-				margin: 10px 0 0 0;
+				margin: 3% 0;
+			}
+			textarea{
+				margin-top: 4%;
+				width: 100%;
+				background: $gray;
+			}
+			a{
+				float: right;
 			}
 		}
 	}
-
-}
-#service-section{
-	background: $gray;
-	#service-wrapper{
-		width: 80%;
+	#footer{
+		background: $dark-gray;
+		color: white;
+		width: 100%;
 		overflow: hidden;
-		margin: auto;
-		padding: 20px 0 20px 0;
-		.service{
-			width: 20%;
+		text-align: center;
+		padding: 2% 0 30px 0;
+		.footer-content-wrapper{
+			width: 28%;
 			float: left;
-			text-align: center;
-			margin: auto;
-			min-width: 150px;
-			margin: 0 6%;
-			padding: 3% 0%;
-			.service-image-wrapper{
-				.service-image{
+			margin: 0 2.5% 0 2.5%;
+			padding: 100px 0;
+		}
+		#copyright-wrapper{
+
+		}
+		#social-media-wrapper{
+			.social-media-header{
+
+			}
+			.glyphicon-wrapper{
+				// overflow: hidden;
+				.glyphicon{
+					width: 50px;
+					float: left;
+					margin-left: 10px;
 					img{
 						width: 100%;
-						margin: auto;
-					}
-				}
-			}
-			.service-content-wrapper{
-				.service-header{
-					h5{
-						font-size: 14px;
-					}
-				}
-				.service-description{
-					p{
-						font-size: 14px;
-					}
-				}
-				.service-button-wrapper{
-					margin: auto;
-					a{
-
+						max-width: 100%;
 					}
 				}
 			}
 		}
-	}
+		#extra-info-wrapper{
 
-}
-
-#about-us-section{
-	position: relative;
-	.flexslider{
-		.flex-viewport{
-		}
-		.slides{
-
-			li{
-				img{
-					width: 90%;
-				}
-			}
-		}
-	}
-	.flex-control-nav{
-		width: 100%;
-		position: absolute;
-		// bottom: 145px;
-		left: 40%;
-		.flex-nav-prev{
-			position: absolute;
-			left: 10%;
-			bottom: 5%;
-		}
-		.flex-nav-next{
-			position: absolute;
-			right: 10%;
-			bottom: 5%;
-		}
-		li{
-			margin:0 6px;
-			display: inline-block;
-			zoom: 1;
-			a{
-				width: 11px;
-				height: 11px;
-				display: block;
-				background: #666;
-				background: rgba(0, 0, 0, 0.5);
-				cursor: pointer;
-				color: transparent;
-				border-radius: 20px;
-			}
 		}
 	}
 }
