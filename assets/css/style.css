@@ -9,40 +9,41 @@
   max-width: 900px;
   margin: auto;
   padding: 30px 0 0 0;
+  border: 2px solid #aaa;
 }
-/* line 13, ../compass/sass/style.scss */
+/* line 14, ../compass/sass/style.scss */
 #site-wrapper #header #nav-bar {
   position: relative;
   overflow: hidden;
 }
-/* line 16, ../compass/sass/style.scss */
+/* line 17, ../compass/sass/style.scss */
 #site-wrapper #header #nav-bar #logo {
   float: left;
   margin: 0 0 0 5%;
   background: #ccc;
 }
-/* line 20, ../compass/sass/style.scss */
+/* line 21, ../compass/sass/style.scss */
 #site-wrapper #header #nav-bar #logo h2 {
   margin: 3px 30px 6px 30px;
 }
-/* line 24, ../compass/sass/style.scss */
+/* line 25, ../compass/sass/style.scss */
 #site-wrapper #header #nav-bar #nav {
   float: right;
   background: #ccc;
   margin: 0 50px 0 0;
   min-width: 100px;
 }
-/* line 31, ../compass/sass/style.scss */
+/* line 32, ../compass/sass/style.scss */
 #site-wrapper #header #nav-bar #nav ul li a {
   color: black;
   padding: 11px 11px 11px 11px;
 }
-/* line 40, ../compass/sass/style.scss */
+/* line 41, ../compass/sass/style.scss */
 #site-wrapper #header #images-wrapper {
   position: relative;
   padding: 20%;
 }
-/* line 44, ../compass/sass/style.scss */
+/* line 45, ../compass/sass/style.scss */
 #site-wrapper #header #images-wrapper #center-logo {
   text-align: center;
   background: #ccc;
@@ -52,166 +53,167 @@
   min-width: 450px;
   padding: 0 0 10px 0;
 }
-/* line 51, ../compass/sass/style.scss */
+/* line 52, ../compass/sass/style.scss */
 #site-wrapper #header #images-wrapper #center-logo #logo-container {
   margin-top: 0%;
   width: 100%;
 }
-/* line 54, ../compass/sass/style.scss */
+/* line 55, ../compass/sass/style.scss */
 #site-wrapper #header #images-wrapper #center-logo #logo-container h1 {
   font-size: 73px;
   font-style: bold;
 }
-/* line 58, ../compass/sass/style.scss */
+/* line 59, ../compass/sass/style.scss */
 #site-wrapper #header #images-wrapper #center-logo #logo-container h3 {
   font-size: 20px;
 }
-/* line 65, ../compass/sass/style.scss */
+/* line 66, ../compass/sass/style.scss */
 #site-wrapper #header #images-wrapper #glyphicons-wrapper {
   width: 50px;
   position: absolute;
   right: 0%;
   top: 30%;
 }
-/* line 71, ../compass/sass/style.scss */
+/* line 72, ../compass/sass/style.scss */
 #site-wrapper #header #images-wrapper #glyphicons-wrapper img {
   width: 100%;
   margin: 10px 0 0 0;
 }
-/* line 79, ../compass/sass/style.scss */
+/* line 80, ../compass/sass/style.scss */
 #site-wrapper #service-section {
   background: #ccc;
   padding: 4% 0;
   position: relative;
   overflow: hidden;
 }
-/* line 84, ../compass/sass/style.scss */
+/* line 85, ../compass/sass/style.scss */
 #site-wrapper #service-section #service-wrapper {
   overflow: hidden;
 }
-/* line 86, ../compass/sass/style.scss */
+/* line 87, ../compass/sass/style.scss */
 #site-wrapper #service-section #service-wrapper .service {
   text-align: center;
 }
-/* line 90, ../compass/sass/style.scss */
+/* line 91, ../compass/sass/style.scss */
 #site-wrapper #service-section #service-wrapper .service .service-image-wrapper .service-image img {
   width: 100%;
   max-width: 300px;
 }
-/* line 98, ../compass/sass/style.scss */
+/* line 99, ../compass/sass/style.scss */
 #site-wrapper #service-section #service-wrapper .service .service-content-wrapper .service-header h5 {
   font-size: 14px;
 }
-/* line 103, ../compass/sass/style.scss */
+/* line 104, ../compass/sass/style.scss */
 #site-wrapper #service-section #service-wrapper .service .service-content-wrapper .service-description p {
   font-size: 14px;
 }
-/* line 118, ../compass/sass/style.scss */
+/* line 119, ../compass/sass/style.scss */
 #site-wrapper #about-us-section {
   position: relative;
   width: 100%;
   margin: auto;
-  border: 1px solid #aaa;
+  border: 2px solid #aaa;
   overflow: hidden;
 }
-/* line 125, ../compass/sass/style.scss */
+/* line 126, ../compass/sass/style.scss */
 #site-wrapper #about-us-section #about-us-content-wrapper {
   width: 40%;
   padding: 10% 1% 10% 5%;
   margin: 0% 10% 0% 0%;
   float: left;
 }
-/* line 132, ../compass/sass/style.scss */
+/* line 133, ../compass/sass/style.scss */
 #site-wrapper #about-us-section #about-us-content-wrapper #about-us-header h2 {
   padding: 0;
   font-size: 20px;
 }
-/* line 147, ../compass/sass/style.scss */
+/* line 148, ../compass/sass/style.scss */
 #site-wrapper #about-us-section #about-us-carousel-wrapper {
   width: 50%;
   float: left;
   margin: 30% 0% 0% 0%;
 }
-/* line 151, ../compass/sass/style.scss */
+/* line 152, ../compass/sass/style.scss */
 #site-wrapper #about-us-section #about-us-carousel-wrapper #about-us-carousel {
   width: 90%;
   margin: 0% 5% 0%;
 }
-/* line 161, ../compass/sass/style.scss */
+/* line 162, ../compass/sass/style.scss */
 #site-wrapper #about-us-section #about-us-carousel-wrapper #about-us-carousel .carousel-inner .item img {
   max-width: 100%;
   width: 100%;
 }
-/* line 172, ../compass/sass/style.scss */
+/* line 173, ../compass/sass/style.scss */
 #site-wrapper #about-us-section #about-us-carousel-wrapper #about-us-carousel .right {
   position: absolute;
   right: 0;
 }
-/* line 182, ../compass/sass/style.scss */
+/* line 183, ../compass/sass/style.scss */
 #site-wrapper #contact-us-wrapper {
   width: 100%;
   margin: auto;
   overflow: hidden;
   background: #ccc;
 }
-/* line 187, ../compass/sass/style.scss */
+/* line 188, ../compass/sass/style.scss */
 #site-wrapper #contact-us-wrapper #contact-us-content-wrapper {
   width: 50%;
   float: left;
 }
-/* line 190, ../compass/sass/style.scss */
+/* line 191, ../compass/sass/style.scss */
 #site-wrapper #contact-us-wrapper #contact-us-content-wrapper #contact-us-header {
   margin: 10% 0 0 10%;
   font-size: 50px;
   font-weight: bold;
 }
-/* line 206, ../compass/sass/style.scss */
+/* line 207, ../compass/sass/style.scss */
 #site-wrapper #contact-us-wrapper #contact-us-content-wrapper .contact-wrapper {
   padding: 10%;
   overflow: hidden;
   font-size: 15px;
 }
-/* line 210, ../compass/sass/style.scss */
+/* line 211, ../compass/sass/style.scss */
 #site-wrapper #contact-us-wrapper #contact-us-content-wrapper .contact-wrapper .contact-item-header {
   float: left;
   width: 20%;
   font-weight: bold;
 }
-/* line 215, ../compass/sass/style.scss */
+/* line 216, ../compass/sass/style.scss */
 #site-wrapper #contact-us-wrapper #contact-us-content-wrapper .contact-wrapper .contact-item-contents {
   float: left;
   padding: 0 0 0 20%;
 }
-/* line 224, ../compass/sass/style.scss */
+/* line 225, ../compass/sass/style.scss */
 #site-wrapper #questions-section-wrapper {
   width: 100%;
   overflow: hidden;
   padding: 20px 0 50px 0;
+  border: 2px solid #aaa;
 }
-/* line 228, ../compass/sass/style.scss */
+/* line 230, ../compass/sass/style.scss */
 #site-wrapper #questions-section-wrapper #questions-wrapper {
   width: 50%;
   margin: 0 25%;
   overflow: hidden;
 }
-/* line 238, ../compass/sass/style.scss */
+/* line 240, ../compass/sass/style.scss */
 #site-wrapper #questions-section-wrapper #questions-wrapper input {
   background: #ccc;
   border: #aaa 2px solid;
   width: 100%;
   margin: 3% 0;
 }
-/* line 244, ../compass/sass/style.scss */
+/* line 246, ../compass/sass/style.scss */
 #site-wrapper #questions-section-wrapper #questions-wrapper textarea {
   margin-top: 4%;
   width: 100%;
   background: #ccc;
 }
-/* line 249, ../compass/sass/style.scss */
+/* line 251, ../compass/sass/style.scss */
 #site-wrapper #questions-section-wrapper #questions-wrapper a {
   float: right;
 }
-/* line 254, ../compass/sass/style.scss */
+/* line 256, ../compass/sass/style.scss */
 #site-wrapper #footer {
   background: #aaa;
   color: white;
@@ -220,20 +222,20 @@
   text-align: center;
   padding: 2% 0 30px 0;
 }
-/* line 261, ../compass/sass/style.scss */
+/* line 263, ../compass/sass/style.scss */
 #site-wrapper #footer .footer-content-wrapper {
   width: 28%;
   float: left;
   margin: 0 2.5% 0 2.5%;
   padding: 100px 0;
 }
-/* line 276, ../compass/sass/style.scss */
+/* line 278, ../compass/sass/style.scss */
 #site-wrapper #footer #social-media-wrapper .glyphicon-wrapper .glyphicon {
   width: 50px;
   float: left;
   margin-left: 10px;
 }
-/* line 280, ../compass/sass/style.scss */
+/* line 282, ../compass/sass/style.scss */
 #site-wrapper #footer #social-media-wrapper .glyphicon-wrapper .glyphicon img {
   width: 100%;
   max-width: 100%;

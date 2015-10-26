@@ -9,6 +9,7 @@ $dark-gray: #aaa;
 		max-width: 900px;
 		margin:auto;
 		padding: 30px 0 0 0;
+		border: 2px solid $dark-gray;
 		// overflow: hidden;
 		#nav-bar{
 			position:relative;
@@ -120,7 +121,7 @@ $dark-gray: #aaa;
 		// padding-top: 39.4%;
 		width: 100%;
 		margin: auto;
-		border: 1px solid $dark-gray;
+		border: 2px solid $dark-gray;
 		overflow: hidden;
 		#about-us-content-wrapper{
 			width: 40%;
@@ -225,6 +226,7 @@ $dark-gray: #aaa;
 		width: 100%;
 		overflow: hidden;
 		padding: 20px 0 50px 0;
+		border: 2px solid $dark-gray;
 		#questions-wrapper{
 			width: 50%;
 			margin: 0 25%;
