@@ -234,8 +234,9 @@
   width: 50px;
   float: left;
   margin-left: 10px;
+  margin-bottom: 10px;
 }
-/* line 282, ../compass/sass/style.scss */
+/* line 283, ../compass/sass/style.scss */
 #site-wrapper #footer #social-media-wrapper .glyphicon-wrapper .glyphicon img {
   width: 100%;
   max-width: 100%;
